@@ -6,8 +6,7 @@ public class RadixWholeNumber {
     private int[] arr;
     private int counter;
 
-    public RadixWholeNumber(int[] numbers){
-        arr = numbers;
+    public RadixWholeNumber(){
         counter = 0;
     }
 

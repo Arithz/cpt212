@@ -9,9 +9,16 @@ public class Radix {
     private float[] arr;
     private int counter;
 
-    public Radix(float[] numbers){
-        arr = numbers;
+    public Radix(){
         counter = 0;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setArr(float[] arr) {
+        this.arr = arr;
     }
 
     public float[] radixSort() {
